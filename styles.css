@@ -1,7 +1,10 @@
-/*  your css code here. If applicable */
-table, td {
-  border: 1px solid black;
+table {
+  width: 90%;
+  margin: auto;
   border-collapse: collapse;
+}
+
+td {
   padding: 5px;
 }
 
@@ -15,10 +18,14 @@ table, td {
 
 .green {
   background-color: green;
-  color: white;
+  height: 20px;
 }
 
 .blue {
   background-color: blue;
-  color: white;
+  height: 20px;
+}
+
+.middle {
+  text-align: center;
 }
